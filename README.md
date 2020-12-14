@@ -23,8 +23,8 @@ $ python3 main.py
 
 By podłaczyć poprawnie silniki serwo do Raspberry Pi, używamy pinów GPIO.
 ```sh
-[17]GPIO -- Serwo osi X
-[2]GPIO -- Serwo osi Y
+[17]GPIO <--> Serwo osi X
+[2]GPIO <--> Serwo osi Y
 ```
 
 
@@ -49,6 +49,6 @@ $ python3 main.py
 
 To properly connect the servo motors to the Raspberry Pi, we use the GPIO pins.
 ```sh
-[17]GPIO -- Servo X-Axis
-[2]GPIO -- Servo Y-Axis
+[17]GPIO <--> Servo X-Axis
+[2]GPIO <--> Servo Y-Axis
 ```
