@@ -19,7 +19,13 @@ $ git clone https://github.com/Dursky/Roboarm-Face-Detection.git
 $ cd Roboarm-Face-Detection
 $ python3 main.py
 ```
+### Podłączenie
 
+By podłaczyć poprawnie silniki serwo do Raspberry Pi, używamy pinów GPIO.
+```sh
+17 GPIO -- Serwo osi X
+2 GPIO -- Serwo osi Y
+```
 
 
 
@@ -37,4 +43,12 @@ Other technologies used:
 $ git clone https://github.com/Dursky/Roboarm-Face-Detection.git
 $ cd Roboarm-Face-Detection
 $ python3 main.py
+```
+
+### Podłączenie
+
+To properly connect the servo motors to the Raspberry Pi, we use the GPIO pins.
+```sh
+17 GPIO -- Servo X-Axis
+2 GPIO -- Servo Y-Axis
 ```
